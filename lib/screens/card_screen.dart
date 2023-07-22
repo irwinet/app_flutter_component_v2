@@ -17,9 +17,9 @@ class CardScreen extends StatelessWidget {
         children: const [
           CustomCardType1(),
           SizedBox(height: 10,),
-          CustomCardType2(),
+          CustomCardType2(name: 'SpaceX', imageUrl: 'https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/MH42ZQ7JZZEFVKPBFY4QBH4QKY.jpg',),
           SizedBox(height: 10,),
-          CustomCardType2()
+          CustomCardType2(imageUrl: 'https://i0.wp.com/www.novicus.com/wp-content/uploads/2016/08/Linux-logo-without-version-number-banner-sized.jpg?ssl=1',)
         ],
       ),
     );
