@@ -11,7 +11,7 @@ class CustomCardType1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       child: Column(
-        children: const [
+        children: [
           ListTile(
             leading: Icon(Icons.photo_album_outlined, color: AppTheme.primary),
             title: Text('Title'),
@@ -23,11 +23,15 @@ class CustomCardType1 extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 TextButton(
-                  onPressed: null, 
+                  onPressed: (){
+
+                  }, 
                   child: const Text('Cancel'),
                 ),
                 TextButton(
-                  onPressed: null, 
+                  onPressed: (){
+                    
+                  }, 
                   child: const Text('Ok')
                 )               
               ],
